@@ -1,0 +1,15 @@
+body{
+    background-image: url("background.jpeg");
+    height: 900px; width: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    grid-template-rows: 50px;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+}
