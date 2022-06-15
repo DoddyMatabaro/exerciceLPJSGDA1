@@ -33,5 +33,30 @@ header nav ul li a:hover{
 /* responsible proparty */
 
 @media screen and (min-width: 900px) {
-    
+    .ico-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main{
+        margin-top: 90px;
+        margin-right: 0;
+    }
+    header ul{
+        display: none;
+    }
+    .ico-mobile{
+        margin-top: 10px;
+    }
+    .ico-mobile>a{
+        text-decoration: none;
+    }
+    .ico-mobile>a>span{
+        color: antiquewhite;
+        font-size: 35px;
+    }
+    .ico-mobile>a>span:hover{
+        color: rgb(49, 36, 36);
+    }
 }
